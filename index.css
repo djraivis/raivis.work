@@ -1,0 +1,137 @@
+.podcast-main-container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  flex-grow: 1;
+  text-align: center;
+  /* background-color:#3f4bce; */
+}
+
+
+body {
+  background-color: #221d3a;
+}
+
+.main-header {
+  background-color: #221d3a;
+}
+
+#h1 {
+  animation: h1 6s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes h1 {
+  from {
+    transform: rotatey(0deg);
+  }
+  to {
+    transform: rotatey(360deg);
+    }
+  }
+
+
+  #h2 {
+    animation: h2 6s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes h2 {
+    from {
+      transform: rotatey(0deg);
+    }
+    to {
+      transform: rotatey(360deg);
+      }
+    }
+  
+
+    #circle {
+      animation: circle 6s infinite;
+      transform-origin: center;
+      /* transform-box: fill-box; */
+    }
+    
+    @keyframes circle {
+      from {
+        transform: rotatey(0deg);
+      }
+      to {
+        transform: rotatey(360deg);
+        }
+      }
+    
+
+  #text {
+    animation: text 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes text {
+    from {
+      transform: rotatey(30deg);
+    }
+    to {
+      transform: rotatey(-30deg);
+      }
+    }
+
+
+
+    .iphone-page-circle-0 {
+      position: absolute;
+      width: 15vw;
+      height: 15vw;
+      border-radius: 50%;
+      background-color: hsla(60, 96%, 56%, 0.096);
+      bottom: 28vw;
+      right: 14vw;
+      z-index: -1;
+    }
+    
+    .iphone-page-circle-1 {
+      position: absolute;
+      width: 25vw;
+      height: 25vw;
+      border-radius: 50%;
+      background-color: #bb3a7f1a;
+      bottom: 5vw;
+      left: 5vw;
+      z-index: -1;
+    }
+    
+    .iphone-page-circle-2 {
+      position: absolute;
+      width: 25vw;
+      height: 25vw;
+      border-radius: 50%;
+      background-color: #2f2c5e70;
+      top: 15vh;
+      left: 30vw;
+      z-index: -1;
+    }
+    
+    .iphone-page-circle-3 {
+      position: absolute;
+      overflow: hidden;
+      width: 45vw;
+      height: 45vw;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+    }
+    
+    .iphone-page-circle-3::before {
+      content: "";
+      transform: translate(40%, 40%);
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      background-color: rgba(22, 152, 70, 0.057);
+    }

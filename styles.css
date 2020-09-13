@@ -1,0 +1,142 @@
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  flex-grow: 1;
+}
+
+/* =====MAIN HEADER & FOOTER ======== */
+
+.main-header {
+  height: 140px;
+  font-weight: bold;
+  font-family: 'Wallpoet', cursive;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+.accent-text
+.main-nav a ul,
+.footer-nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav a,
+.footer-nav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.main-header,
+.main-footer {
+  display: flex;
+  justify-content: space-betwe;
+  align-items: center;
+}
+
+
+
+.main-footer .container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+/* ========= A C C E N T ============= */
+.copyright {
+  font-size: small;
+  color: #cccccc;
+  font-weight: lighter;
+}
+
+small {
+  color: #cccccc;
+}
+
+.accent-text {
+  color: #ff6584;
+}
+
+.social-link img {
+  width: 1em;
+  margin-right: 0.25rem;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 3em;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  color: #ff6584;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.text {
+  margin-left: 28rem;
+}
+
+.fonts {
+  font-family: 'Wallpoet', cursive;
+}
+
+h1 {
+  color: #999999;
+}
+
+p {
+  color: rgb(243, 235, 235);
+}
+
+/* ======= B U T T O NS =========== */
+
+.btn {
+  color: rgb(0, 0, 0);
+  background-color: #07077c;
+  padding: 0.40rem 0.40rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-size: .9rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 1.2s;
+  transform: 150ms ease-in-out;
+  opacity: 175ms linear;
+}
+
+/* .active, */
+.feel-btn:hover,
+.btn:hover {
+  transform: scale(2.2);
+  background-color: #221D3A;
+  color: #fffefe;
+  font-size: bold;
+}
+
+.iphone-page-circle-0:hover,
+.main-nav a:hover,
+.brand-logo-name:hover,
+.footer-nav a:hover,
+.email:hover {
+  color: #999999;
+}
