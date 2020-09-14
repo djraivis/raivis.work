@@ -41,7 +41,7 @@
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
-  background-color: hsla(60, 96%, 56%, 0.541);
+  background-color: hsla(60, 96%, 56%, 0.137);
   bottom: 28vw;
   right: 14vw;
   z-index: -1;
@@ -52,7 +52,7 @@
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
-  background-color: #bb3a7f94;
+  background-color: #bb3a7f27;
   bottom: 5vw;
   left: 5vw;
   z-index: -1;
@@ -63,7 +63,7 @@
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
-  background-color: #0b037cb0;
+  background-color: #0b037c11;
   top: 15vh;
   left: 30vw;
   z-index: -1;
@@ -86,5 +86,5 @@
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  background-color: rgba(52, 178, 115, 0.521);
+  background-color: rgba(52, 178, 115, 0.103);
 }
