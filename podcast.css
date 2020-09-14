@@ -36,40 +36,40 @@
   height: 400px;
 }
 /* ================================================================ */
-.iphone-page-circle-0 {
+.iPhone-page-circle-yellow {
   position: absolute;
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
-  background-color: hsla(60, 96%, 56%, 0.096);
+  background-color: hsla(60, 96%, 56%, 0.541);
   bottom: 28vw;
   right: 14vw;
   z-index: -1;
 }
 
-.iphone-page-circle-1 {
+.iPhone-page-circle-pink {
   position: absolute;
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
-  background-color: #bb3a7f1a;
+  background-color: #bb3a7f94;
   bottom: 5vw;
   left: 5vw;
   z-index: -1;
 }
 
-.iphone-page-circle-2 {
+.iPhone-page-circle-blue {
   position: absolute;
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
-  background-color: #2f2c5e70;
+  background-color: #0b037cb0;
   top: 15vh;
   left: 30vw;
   z-index: -1;
 }
 
-.iphone-page-circle-3 {
+.iPhone-page-circle-green {
   position: absolute;
   overflow: hidden;
   width: 45vw;
@@ -79,12 +79,12 @@
   z-index: -1;
 }
 
-.iphone-page-circle-3::before {
-  content: "";
+.iPhone-page-circle-green::before {
+  content: '';
   transform: translate(40%, 40%);
   position: absolute;
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  background-color: rgba(22, 152, 70, 0.057);
+  background-color: rgba(52, 178, 115, 0.521);
 }

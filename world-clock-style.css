@@ -81,8 +81,8 @@
 
 .world-clock-page-circle-pink {
   position: absolute;
-  width: 25vw;
-  height: 25vw;
+  width: 22vw;
+  height: 22vw;
   border-radius: 50%;
   background-color: #bb3a7f63;
   bottom: 5vw;
@@ -95,9 +95,9 @@
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
-  background-color: #0b037c57;
-  top: 15vh;
-  left: 30vw;
+  background-color: #0b037c9f;
+  top: 20vh;
+  left: 24.5vw;
   z-index: -1;
 }
 
