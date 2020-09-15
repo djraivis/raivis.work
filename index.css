@@ -39,6 +39,10 @@
   padding: 1rem;
 }
 
+.speed-to-select a:hover {
+  color:  #BC3A80;
+}
+
 .card__links {
   font-size: 16px;
 }
@@ -58,7 +62,7 @@
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
-  background-color: rgb(188, 58, 128, .1);
+  background-color: rgba(188, 58, 127, 0.267);
   bottom: 5vw;
   left: 5vw;
   z-index: -1;
@@ -69,7 +73,7 @@
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
-  background-color: rgb(52, 87, 178, .1);
+  background-color: #76afd86c;
   top: 15vh;
   left: 30vw;
   z-index: -1;
@@ -92,5 +96,5 @@
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  background-color: rgb(52, 87, 178, .1);
+  background-color: rgba(52, 178, 100, 0.274);
 }

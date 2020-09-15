@@ -83,6 +83,7 @@ body {
   flex-grow: 1;
 }
 
+
 .title {
   font-weight: 500;
   font-size: 3em;
@@ -96,6 +97,11 @@ body {
   margin-bottom: 2rem;
 }
 
+.small-text {
+  font-weight: 300;
+  font-size: 0.9em;
+  margin-bottom: 2rem;
+}
 
 .join-text {
   font-size: 3.5em;
