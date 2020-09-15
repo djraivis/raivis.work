@@ -1,6 +1,42 @@
+
+
+#hat {
+  animation: hat 0.2s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes hat {
+  from {
+    transform: translateY(-10%) rotate(-10deg)
+  }
+  to {
+    transform: translateY(60%) rotateZ(10deg);
+  }
+}
+
+
+
+#bike-guy {
+  animation: bike 0.2s ease-in-out infinite alternate;
+  transform-origin: bottom;
+}
+
+@keyframes bike {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(40deg);
+  }
+}
+
+
+
+
 #right-wheel,
 #left-wheel {
-  animation: wheel 2s infinite linear;
+  animation: wheel 0.5s infinite linear;
   transform-origin: center;
   transform-box: fill-box;
 }
@@ -13,36 +49,6 @@
     transform: rotateZ(360deg);
   }
 }
-
-#bike-guy {
-  animation: bike 1s ease-in-out infinite alternate;
-  transform-origin: bottom;
-}
-
-@keyframes bike {
-  from {
-    transform: rotateX(0deg);
-  }
-  to {
-    transform: rotateX(20deg);
-  }
-}
-
-#hat {
-  animation: hat 1s ease-in-out infinite alternate;
-  transform-origin: center;
-  transform-box: fill-box;
-}
-
-@keyframes hat {
-  from {
-    transform: translateY(-10%) rotateZ(0deg);
-  }
-  to {
-    transform: translateY(40%) rotateZ(10deg);
-  }
-}
-
 
 
 .home-main-section {
@@ -57,7 +63,7 @@
   flex-direction: column;
   display: flex;
   align-items: stretch;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .home-main-section .lady-image {
@@ -97,7 +103,6 @@
   }
 }
 
-
 .bike-guy-circle-yellow {
   position: absolute;
   width: 15vw;
@@ -105,7 +110,7 @@
   border-radius: 50%;
   background-color: hsla(60, 96%, 56%, 0.315);
   bottom: 38vw;
-  right: 22vw;
+  right: 32vw;
   z-index: -1;
 }
 
