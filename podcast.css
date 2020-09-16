@@ -10,8 +10,6 @@
   /* background-color:#3f4bce; */
 }
 
-
-
 .box-2 {
   background-color: #141416;
   width: 45vw;
@@ -23,10 +21,10 @@
 }
 
 .inside-box-2-soundcloud-iframe {
-  justify-content: center;
-  width: 36vw;
-  align-items: center;
-  height: 400px;
+  justify-content: flex-start;
+  width: 38vw;
+  align-items: left;
+  height: 430px;
 }
 /* ================================================================ */
 
@@ -59,7 +57,7 @@
   height: 25vw;
   border-radius: 50%;
   background-color: #7A61FF;
-  top: 15vh;
+  top: 9vh;
   left: 30vw;
   z-index: -1;
 }
